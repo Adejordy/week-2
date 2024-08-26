@@ -1,55 +1,54 @@
-
 /* I changed the back ground color to the body of each page. (element)   */
-body { 
-background-color: lightgoldenrodyellow;
+body {
+  background-color: lightgoldenrodyellow;
 }
 /* I changed the color of the header, the size of the font and the style of the font, I centered the font (element) */
 h1 {
-color: darkred;
-font-size: 40px;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-text-align: center;
+  color: darkred;
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
 }
-/* I changed the font size for the second headers to 25px, the color to fire brickred, and the style to firebrick (element)*/ 
+/* I changed the font size for the second headers to 25px, the color to fire brickred, and the style to firebrick (element)*/
 h2 {
-font-size: 25px;
-color: firebrick;
-font-style: italic;
+  font-size: 25px;
+  color: firebrick;
+  font-style: italic;
 }
 p {
-text-align: center;
+  text-align: center;
 }
 
 /* I gave the nav bar a background and changed the width to fit and changed the font size, and changed the color to light yellow (class) */
 .navbar {
-background-color: brown;
-padding: 3%;
-width: fit-content;
-font-size: 25px;
+  background-color: brown;
+  padding: 3%;
+  width: fit-content;
+  font-size: 25px;
 }
-.navbar a { 
-    color: lightgoldenrodyellow;
+.navbar a {
+  color: lightgoldenrodyellow;
 }
-/* I added background color to the list and made it fit the content  */ 
+/* I added background color to the list and made it fit the content  */
 #list {
-background-color: coral;
-width: fit-content;
+  background-color: coral;
+  width: fit-content;
 }
 /* I changed the background color for the form and the font size  */
 form {
-background-color: darkorange;
-font-size: 30px;
+  background-color: darkorange;
+  font-size: 30px;
 }
 /*I moved the images to the center on the home page, I did have to look up code on how to do that, I wasnt able to use float  */
-.images { 
-display: block;
-margin-left: auto;
-margin-right: auto;
+.images {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* I added a background and a solid border*/
 table {
-background-color: cornflowerblue;
-border: solid; font-size: 30px;
-font-size: 30px;
+  background-color: cornflowerblue;
+  border: solid;
+  font-size: 30px;
+  font-size: 30px;
 }
-

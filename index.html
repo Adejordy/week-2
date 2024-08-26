@@ -1,74 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
     <link rel="stylesheet" href="./styles.css" />
-</head>
-<!-- Comment: I'm adding paragraph tags after the href anchors, in the body, to contain the context of the page, within those I will use additional paragraph tags text for specific areas like adding a caption to a picture.  -->
- <!-- Section 1 The links to each page, I used an anchor href to link each page to eachother. This would be a relative path since I'm linking internal pages. -->
+  </head>
+  <!-- github repo: https://github.com/Adejordy/week2.git -->
+  <!-- Comment: I'm adding paragraph tags after the href anchors, in the body, to contain the context of the page, within those I will use additional paragraph tags text for specific areas like adding a caption to a picture.  -->
+  <!-- Section 1 The links to each page, I used an anchor href to link each page to eachother. This would be a relative path since I'm linking internal pages. -->
   <!-- I added a nav and created a class with it 
    -->
-<body>
+  <body>
     <nav class="navbar">
-    <a href="index.html" >Home Page</a>
-    <a href="page2.html">Places to Stay</a>
-    <a href="page3.html">Things to do</a>
-</nav>
+      <a href="index.html">Home Page</a>
+      <a href="page2.html">Places to Stay</a>
+      <a href="page3.html">Things to do</a>
+    </nav>
 
-    <!--Section 2 I used h1 to title for Arizona to make it the biggest and title the page. I added a picture of the Arizona state flag with a relative path, and used paragraph tags to add a caption to the picture. on this page i'm using relative path picture because the url links are long -->
-    <p>
-<header>
-    <h1> Arizona</h1>
-    <p>Arizona is a beautiful wonder, the desert is known to have healing powers as well as beautiful sights to see</p>
-</header>
-<img class="images" width="400px" height="300px" src="az flag.png" alt="Arizona State Flag"/>
-</p>
-<p>Arizona State Flag</p>
-<!--Section 3 I used h2 for the facts about AZ, and created an ordered list with some facts about Arizona-->
-<header><h2>Facts About Arizona</h2></header>
-<ol id="list">
-<li>Arizona was founded February 14, 1912</li>
-<li>The capital of Arizona is Phoenix</li>
-<li>The state motto is Ditat Deus (God Enriches)</li>
-<li>The state bird is the Cactus Wren and the state flower is the Saguaro cactus bloom</li>
-</ol>
-<img class="images" width="400px" height="300px" src="azmap.jpg" alt="Map of Arizona"/>
-<p>Map of Arizona</p>
-<!--Section 4 I struggled a bit with making the table and had to reference the instruction video; I wasnt putting a break in my data and that was creating rows of information not a table with data. I went back and added a header to show I was the information I was listing -->
-<h2>Seasonal Weather Averages</h2>
-<table>
-<tr>
-<th>Season</th>
-<th>High</th>
-<th>Lows</th>
-</tr>
-<tr>
-<td>Winter(Dec-Feb)</td>
-<td>66 degrees</td>
-<td>42 degrees</td>
-</tr>
-<tr>
-<td>Spring(Mar-May)</td>
-<td>85 degress</td>
-<td>55 degrees</td>
-</tr>
-<tr>
-<td>Summer(Jun-Aug)</td>
-<td>120 degrees</td>
-<td>75 degrees</td>
-</tr>
-</table>
-<img class="images" width="400px" height="300px" src="azsunset.jpg" alt="Arizona Sunset"/>
-<p>Arizona Sunset</p>
-<!--Section 4 for the form I created an email subscription option; I used place holders to show the request information and created a submit button -->
-<h2>Sign up for email updates</h2>
-<form>
-<input type="text' name="firstname" placeholder="First Name"/>
-<input type="text' name="lastname" placeholder="Last Name"/>
-<input type="text' name="emailaddress" placeholder="email address"/>
-<input type="submit" value="Submit"/>
-</form>
-    </p>
-</body>
+    <!-- Section 2 I used h1 to title for Arizona to make it the biggest and title the page. I added a picture of the Arizona state flag with a relative path, and used paragraph tags to add a caption to the picture. on this page i'm using relative path picture because the url links are long -->
+    <header>
+      <h1>Arizona</h1>
+      <p>
+        Arizona is a beautiful wonder, the desert is known to have healing
+        powers as well as beautiful sights to see
+      </p>
+    </header>
+    <img
+      class="images"
+      width="400px"
+      height="300px"
+      src="az flag.png"
+      alt="Arizona State Flag"
+    />
+
+    <p>Arizona State Flag</p>
+    <!--Section 3 I used h2 for the facts about AZ, and created an ordered list with some facts about Arizona-->
+    <header><h2>Facts About Arizona</h2></header>
+    <ol id="list">
+      <li>Arizona was founded February 14, 1912</li>
+      <li>The capital of Arizona is Phoenix</li>
+      <li>The state motto is Ditat Deus (God Enriches)</li>
+      <li>
+        The state bird is the Cactus Wren and the state flower is the Saguaro
+        cactus bloom
+      </li>
+    </ol>
+    <img
+      class="images"
+      width="400px"
+      height="300px"
+      src="azmap.jpg"
+      alt="Map of Arizona"
+    />
+    <p>Map of Arizona</p>
+    <!-- CTRL + / creates a comment -->
+    <!--Section 4 I struggled a bit with making the table and had to reference the instruction video; I wasnt putting a break in my data and that was creating rows of information not a table with data. I went back and added a header to show I was the information I was listing -->
+    <h2>Seasonal Weather Averages</h2>
+    <table>
+      <tr>
+        <th>Season</th>
+        <th>High</th>
+        <th>Lows</th>
+      </tr>
+
+      <tr>
+        <td>Winter(Dec-Feb)</td>
+        <td>66 degrees</td>
+        <td>42 degrees</td>
+      </tr>
+      <tr>
+        <td>Spring(Mar-May)</td>
+        <td>85 degress</td>
+        <td>55 degrees</td>
+      </tr>
+      <tr>
+        <td>Summer(Jun-Aug)</td>
+        <td>120 degrees</td>
+        <td>75 degrees</td>
+      </tr>
+    </table>
+    <img
+      class="images"
+      width="400px"
+      height="300px"
+      src="azsunset.jpg"
+      alt="Arizona Sunset"
+    />
+    <p>Arizona Sunset</p>
+    <!--Section 4 for the form I created an email subscription option; I used place holders to show the request information and created a submit button -->
+    <h2>Sign up for email updates</h2>
+    <form>
+      <input type="text" name="firstname" placeholder="First Name" />
+      <input type="text" name="lastname" placeholder="Last Name" />
+      <input type="text" name="emailaddress" placeholder="email address" />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
